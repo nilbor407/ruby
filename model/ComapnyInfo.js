@@ -1,6 +1,5 @@
 
 let mongoose=require('mongoose');
-mongoose.connect('mongodb+srv://ruby:II2DBru3VNIRGUWY@cluster0.8blek.mongodb.net/');
 let Schema=mongoose.Schema;
 let company=new Schema({
     "name":String,

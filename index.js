@@ -7,6 +7,8 @@ app.use(express.json());
 let upload=require('express-fileupload');
 let bodyparser=require('body-parser');
 let mongoose=require('mongoose');
+mongoose.connect('mongodb+srv://ruby:II2DBru3VNIRGUWY@cluster0.8blek.mongodb.net/ruby');
+
 let api=require('./routes/api');
 let path=require('path');
 app.use(express.static("public/"));
